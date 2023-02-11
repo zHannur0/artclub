@@ -1,0 +1,29 @@
+body{
+    background-color: #f0c3bd;
+    overflow-x: hidden;
+}
+
+.footer{
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
+}
+.main{
+    display: flex;
+    width: 100%;
+    padding: 0 7%;
+}
+.player{
+    width: 50%;
+}
+
+.textOfSong{
+    display: flex;
+    align-items: center;
+}
+
+.textOfSong p{
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 30px;
+}
