@@ -5,7 +5,7 @@
     <title>Love Music</title>
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Dancing+Script:wght@500&family=Julee&family=M+PLUS+Rounded+1c&family=Nunito:wght@300&family=Pacifico&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -15,7 +15,8 @@
         </h1>
     </div>
     <div class="main">
-            <img src="player2.gif" alt="" class="player">
+            <img src="player2.jpeg" alt="" class="player1" id = "player1" onclick="play(this)">
+            <img src="player2.gif" alt="" class="player2" id = "player2" onclick="pause(this)">
         <div class="textOfSong">
             <p>
                 Sosyn sen süiem deisıŋ
@@ -38,7 +39,7 @@
             </p>
         </div>
     </div>
-    <audio controls loop autoplay hidden="hidden" src="muz.mp3" id = "muz"></audio>
+    <audio controls loop hidden="hidden" src="muz.mp3" id = "muz"></audio>
     <script src="script.js"></script>
 </body>
 </html>

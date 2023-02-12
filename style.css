@@ -17,8 +17,12 @@ body{
     padding: 0 7%;
     flex-wrap: wrap;
 }
-.player{
+.player1 {
     width: 50%;
+}
+.player2{
+    width: 50%;
+    display: none;
 }
 
 .textOfSong{
@@ -34,7 +38,11 @@ body{
 
 
 @media screen and (max-width: 900px) {
-    .player{
+    .player1{
+        width: 100%;
+    }
+
+    .player2 {
         width: 100%;
     }
 
